@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>time tracker</title>
+    <meta charset="UTF-8">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="resources/main.css">
+</head>
+<body class="body" >
+
+    
+
+    <div class="outer-block">
+    <div class="block" id="text">
+        <input class="input" id="input" type="text" placeholder="enter your work for the day"><select id="select">
+            <option value="Home">Home</option>
+            <option value="Work">Work</option>
+            <option value="Personal">Personal</option>
+        </select>
+        </div>
+        <div class="container">
+
+            <div class="buttons" id="button">
+                
+            <br>
+            
+            <i id="starterClock">00:00:00</i><br><br>
+            <div class="timerButtons">
+            <div id="div">
+                
+            <i id="start" class='fa fa-play button' aria-hidden='true'></i>
+               <i id="pause" class="fa fa-pause" aria-hidden="true" ></i>
+               </div>
+                <i id="stop" class='fa fa-stop ' aria-hidden='true'></i>
+               
+                </div>
+
+                </div>
+            <br>
+        </div>
+        <br><br>
+        <div class="dateBlock">
+                <label  class="date" for="tododate">Date:</label>
+                <input  class="date" type="datepicker" id="tododate" name="tododate" required />
+        
+        <br>
+        <br>      
+
+            <div id="test">
+                <table class="table">
+
+                    <tbody>
+                        <tr>
+                            <th class="th">Work-Name</th>
+                            <th class="th">Category</th>
+                            <th class="th">Time</th>
+                            
+                        </tr>
+
+                        
+                    </tbody>
+
+
+                </table> 
+            </div>
+        </div>
+        </div>
+    
+    
+    <script src='resources/main.js'></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
+

@@ -1,0 +1,131 @@
+.table{
+        width: 100%;
+        font-size: 30px;
+    
+  }
+
+
+    .input[type=text]{
+        width: 510px;
+        height: 5.5px;
+        font-size: 20px;
+        padding: 20px;
+        text-transform: capitalize;
+   }
+    .body{
+        background-color: white;
+        justify-content: center;
+         display: flex;
+    }
+    .block{
+        text-align: center;
+    
+        font-size: 25px;
+        
+        padding: 40px;
+        background-color: white;
+    }
+   .ui-datepicker {
+font-size: 15px;
+
+padding: 4px;
+}
+span{
+    padding: 5px;   
+}
+.ui-state-default{
+    text-decoration: none;
+    color: black;
+}
+
+.ui-widget-header {
+background: orange;
+}
+
+.ui-widget-content .ui-state-default:hover{
+background: grey;
+padding: 4px;
+border-radius: 2px;
+}
+.ui-datepicker-calendar{
+    background-color: white;
+
+}
+#starterClock{
+    border: 2px solid black;
+    padding: 5px;
+    width: 60px;
+}
+    
+    /*.button{
+
+        width:100px;  
+        height: 30px;
+    }*/
+     
+
+    .display{
+        width: 100px;
+        
+        padding: 10px;
+        display: flex;
+        border: 2px solid black;
+
+    }
+    .tr,.table,.td{
+    border : 1px solid lightgrey;
+    border-collapse: collapse;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+    #select{
+        
+        border-radius: 5px;
+        background-color: white;
+        font-size: 20px;
+        height: 50px;
+        padding: 10px;
+        margin: 0px;
+        border-collapse: collapse; 
+    }
+    .fa{
+        padding: 10px;
+        color: black;
+    }
+
+    
+    
+    .buttons{
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    .outer-block{
+        margin: 50px;
+        padding: 10px;
+        border : 2px solid lightblue;
+    border-collapse: collapse; 
+    }
+    .buttons{
+        text-align: center;
+    
+       
+        
+        padding: 10px;
+        background-color: white;
+
+    }
+    .dateBlock{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #stop{
+        margin-top: -9px;
+
+    }
+    .timerButtons{
+    display: flex; justify-content: center;
+}
